@@ -452,11 +452,6 @@ def get_unprocessed_results(jobId):
     
     app.logger.info(f"REQ: GET {request.path} | Job ID: {jobId}", extra=log_extra)
 
-    # JobCompleteステータスの場合、未処理レコードは存在しないため404を返す
-    if job_data["state"] == "JobComplete":
-        app.logger.error(f"RES: 404 NOT FOUND | Job ID: {jobId} is JobComplete.", extra=log_extra)
-        return jsonify({"message": "The requested resource does not exist", "errorCode": "NOT_FOUND"}), 404
-
     # --- objectの値に基づいてCSVを切り替え (外部ファイルからロードしたデータを使用) ---
     object_name = job_data["object"]
     csv_data = LOADED_CSV_DATA["unproc"].get(object_name, "")
