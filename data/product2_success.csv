@@ -1,0 +1,3 @@
+sf__Id,sf__Created,Name,ModelClassification__c,IsConnected__c,TypeName__c,TCOrder__c,WheelDriveSystem__C,CarType__C,ModelName__c,ModelYear__c,DoorClassName__c,DoorClassCode__c,Mission__c,DefaultFOP__c,Powertrain__c
+"750GC00000ulUPPYA2","TRUE","ModelX","0","TRUE","Sedan","TC001","2","SUV","ModelX","2024","4-Door","X1","Automatic","Premium","P202411142125","1"
+"750GC00000ulUPOYA2","TRUE","ModelY","1","FALSE","Hatchback","2024-11-16T09:00:00Z","TC002","4","Sedan","ModelY","2023","2-Door","Y1","Manual","P202411142125","0"

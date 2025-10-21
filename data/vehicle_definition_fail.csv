@@ -1,0 +1,4 @@
+sf__Id,sf__Error,Name,Product2.ProductExternalID,TCCode__c,TCName__c,ExteriorColor__c,ChassisLength__c,ChassisWidth__c,ChassisHeight__c,ModelDesignationNumber__c,ClassificationNumber__c,FuelEconomy__c,TaxableStandardAmount__c,TaxRate__c
+"a03GC00007gqXXXXX1","XXXXXXXXXXXXXXX","車両定義名テスト01","01tGC00000FvqHAYAZ","TC-001","TCTest名01","","4980","1980","1780","H0116","E001","20","4000000","10"
+"a03GC00007gqXXXXX2","XXXXXXXXXXXXXXX","車両定義名テスト02","01tGC00001FvqHAYAZ","TC-002","TCTest名02","","4980","1980","1780","H0117","E002","20","4000000","10"
+"a03GC00007gqXXXXX3","XXXXXXXXXXXXXXX","車両定義名テスト03","01tGC00002FvqHAYAZ","TC-003","TCTest名03","","4980","1980","1780","H0118","E003","20","4000000","10"
