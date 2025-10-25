@@ -336,7 +336,7 @@ def get_job_details(jobId):
     # JobComplete 時の完了情報
     if job_data['state'] == 'JobComplete':
         processed = 2
-        failed = 0
+        failed = 1
         total_time = 126
     else:
         processed = 0
